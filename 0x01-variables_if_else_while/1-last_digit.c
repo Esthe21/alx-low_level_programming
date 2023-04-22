@@ -17,15 +17,18 @@ int main(void)
 	sprintf(output, "Last digit of %d is %d", n, last_digit);
 	if (n > 5)
 	{
-		printf(strcat(output, " and is greater than 5"));
+		strcat(output, " and is greater than 5");
+		printf("%s", output);
 	}
 	else if (n == 0)
 	{
-		printf(strcat(output, " and is 0"));
+		strcat(output, " and is 0");
+		printf("%s", output);
 	}
 	else if (n < 6 && n != 0)
 	{
-		printf(strcat(output, " and is less than 6 and not 0"));
+		strcat(output, " and is less than 6 and not 0");
+		printf("%s", output));
 	}
 	return (0);
 }
