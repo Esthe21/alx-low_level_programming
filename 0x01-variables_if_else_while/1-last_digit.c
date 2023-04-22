@@ -19,17 +19,17 @@ int main(void)
 	if (n > 5)
 	{
 		strcat(output, " and is greater than 5");
-		printf("%s", output);
+		printf("%s\n", output);
 	}
 	else if (n == 0)
 	{
 		strcat(output, " and is 0");
-		printf("%s", output);
+		printf("%s\n", output);
 	}
 	else if (n < 6 && n != 0)
 	{
 		strcat(output, " and is less than 6 and not 0");
-		printf("%s", output);
+		printf("%s\n", output);
 	}
 	return (0);
 }
