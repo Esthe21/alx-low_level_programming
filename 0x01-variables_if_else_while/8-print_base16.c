@@ -3,17 +3,19 @@
 #include <stdio.h>
 /**
  *main - Entry point
- *Description: print numbers
+ *Description: printing alphabets
  *Return: always 0
  */
 int main(void)
 {
-	int i;
+	char letter;
 
-	while (i < 10)
+	letter = 'z';
+	while (letter >= 'a')
 	{
-		printf("%d\n", i);
-		++i;
+		putchar(letter);
+		--letter;
 	}
+	putchar('\n');
 	return (0);
 }
