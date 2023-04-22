@@ -29,7 +29,7 @@ int main(void)
 	else if (n < 6 && n != 0)
 	{
 		strcat(output, " and is less than 6 and not 0");
-		printf("%s", output));
+		printf("%s", output);
 	}
 	return (0);
 }
