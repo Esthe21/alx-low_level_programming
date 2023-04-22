@@ -3,18 +3,25 @@
 #include <stdio.h>
 /**
  *main - Entry point
- *Description: printing alphabets
+ *Description: printing alphabets small and big
  *Return: always 0
  */
 int main(void)
 {
-	char letter;
+	char letter = 'a', end = 'z';
 
-	letter = 'a';
-	while (letter <= 'z')
+	while (letter <= end)
 	{
 		putchar(letter);
-		++letter;
+		if (letter == 'z')
+		{
+			letter = 'A';
+			end = 'Z';
+		}
+		else
+		{
+			++letter;
+		}
 	}
 	return (0);
 }
