@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * leet - my fubction
+ * @s: string
+ * Return: result
+ */
 char *leet(char *s)
 {
 	int i, j;
