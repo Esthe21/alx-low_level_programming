@@ -7,7 +7,7 @@
  * Return: success always
  */
 
-int main(int_attribute_((_unused_)) argc, char *argv[])
+int main(int__attribute__((__unused__)) argc, char *argv[])
 {
 	print("%s\n", argv[0]);
 
